@@ -1,0 +1,21 @@
+.one {
+	letter-spacing: 5px;
+	color: hotpink;
+	font-family: trebuchet ms;
+	font-size: 50px;
+	line-height: 20px;
+	display: flex;
+	background-color: pink;
+	height: 100px;
+	width: 400px;
+	border: 5px solid hotpink;
+	justify-content: center;
+
+}
+
+.two {
+	font-family: arial;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color:blue;
+}

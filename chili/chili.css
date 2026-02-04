@@ -1,0 +1,17 @@
+h1 {
+	font-family: arial black;
+	font-weight: bold;
+	font-size: 100px;
+	line-height: 50px;
+	color: skyblue;
+}
+
+.instructions {
+	font-family: lucida console;
+}
+ol {
+	background-color: lightgoldenrodyellow;
+	height: 500px;
+	width: 400px;
+	align-content: center;
+}		

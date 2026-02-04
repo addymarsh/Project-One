@@ -1,0 +1,40 @@
+body{
+	background-color: darkred;
+	color: white;
+}
+
+.one {
+	font-family: tahoma;
+	font-size: 100px;
+	line-height: 0px;
+
+}
+
+.bod {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.steak{
+	background-color: burlywood ;
+	width: 300px;
+	border: 10px solid saddlebrown;
+	font-family: "Arial" ;
+}
+
+.chicken{
+	background-color: burlywood ;
+	width: 300px;
+	border: 10px solid saddlebrown;
+	font-family: "Arial" ;
+}
+
+.salmon{
+	background-color: burlywood ;
+	width: 300px;
+	border: 10px solid saddlebrown;
+	font-family: "Arial" ;
+
+}
