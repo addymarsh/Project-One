@@ -1,18 +1,58 @@
+.all {
+	display: flex;
+	flex-direction: column;
+}
+
+
 .one {
 	font-family: verdana;
 	color: red;
 	font-size: 100px;
-	line-height: 20px;
+	line-height: 0px;
+
 }
 
-.bod {
+.two {
 	font-family: arial;
 	font-size: 30px;
 	color: green;
 	display: flex;
 	background-color: lightgreen;
-	height: 30%;
-	width: 40%;
+	height: 400px;
+	width: 400px;
 	border: 5px dotted green;
 	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 200px;
+	right: 50px;
+	animation-name: movein, fadein;
+	animation-duration: 1s;
+	animation-delay: .5s;
+}
+
+.three {
+	font-family: arial;
+	font-size: 20px;
+	color: red;
+	position: fixed;
+	bottom: 50px;
+}
+
+@keyframes fadein {
+	from {opacity: 0;}
+	to   {opacity: 1;}
+}
+
+@keyframes movein {
+	from {right: 200px;}
+	to {right: 50px;}
+}
+
+a {
+	color: red;
+}
+
+a:hover {
+	color: teal;
 }

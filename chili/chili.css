@@ -8,10 +8,41 @@ h1 {
 
 .instructions {
 	font-family: lucida console;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: column;
 }
-ol {
+.snote {
+	
 	background-color: lightgoldenrodyellow;
-	height: 500px;
-	width: 400px;
-	align-content: center;
-}		
+	height: 700px;
+	width: 500px;
+	position: fixed;
+	right: 50px;
+	top: 70px;
+	box-sizing: border-box;
+	animation-name: fadein, movein;
+	animation-duration: 1s;
+	animation-delay: .5s;
+}	
+
+@keyframes fadein {
+	from {opacity: 0;}
+	to   {opacity: 1;}
+}
+
+@keyframes movein {
+	from {right: 200px;}
+	to   {right: 50px;}
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: teal;
+}
+
