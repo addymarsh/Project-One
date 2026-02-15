@@ -1,3 +1,70 @@
-body {
-    background-color: brown;
+
+.row-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: lucinda console, monospace;
 }
+
+#chili {
+        color: darkslategray;
+    background-color: #fce37e;
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+
+}
+
+#chicken-salad {
+    color: darkslategray;
+    background-color: green;
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+
+}
+
+#apple-pancakes {
+    color: darkslategray;
+    background-color: orange;
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+
+}
+
+#meat {
+    color: darkslategray;
+    background-color: blue;
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+
+}
+
+#spaghetti-mac-and-cheese {
+    color: darkslategray;
+    background-color: yellow;
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+
+}
+
+

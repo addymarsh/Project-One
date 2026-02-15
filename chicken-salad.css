@@ -1,36 +1,31 @@
 .all {
 	display: flex;
 	flex-direction: column;
+	font-family: lucinda console, monospace;
 }
 
 
 
 
 .one {
-	letter-spacing: 5px;
-	color: hotpink;
-	font-family: trebuchet ms;
-	font-size: 50px;
-	line-height: 20px;
-	background-color: pink;
-	height: 100px;
-	width: 400px;
-	border: 5px solid hotpink;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+	
+	font-weight: bold;
+	font-size: 100px;
+	line-height: 50px;
+	color: darkslategray;
 	
 
 }
 
 .two {
-	font-family: arial;
-	font-size: 20px;
-	letter-spacing: 2px;
-	color:blue;
+	
+	background-color: #fce37e;
+	height: 700px;
+	width: 500px;
 	position: fixed;
-	bottom: 50px;
+	right: 50px;
+	top: 70px;
+	box-sizing: border-box;
 	animation-name: fadein, movein;
 	animation-duration: 1s;
 	animation-delay: .5s;

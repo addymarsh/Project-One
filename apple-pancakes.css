@@ -1,43 +1,33 @@
 .all {
 	display: flex;
 	flex-direction: column;
+	font-family: lucinda console, monospace;
+	color: darkslategray;
 }
 
 
 .one {
-	font-family: verdana;
-	color: red;
+	
 	font-size: 100px;
 	line-height: 0px;
 
 }
 
 .two {
-	font-family: arial;
-	font-size: 30px;
-	color: green;
-	display: flex;
-	background-color: lightgreen;
-	height: 400px;
-	width: 400px;
-	border: 5px dotted green;
-	justify-content: center;
-	align-items: center;
+	
+		background-color: #fce37e;
+	height: 700px;
+	width: 500px;
 	position: fixed;
-	top: 200px;
 	right: 50px;
+	top: 70px;
+	box-sizing: border-box;
 	animation-name: movein, fadein;
 	animation-duration: 1s;
 	animation-delay: .5s;
 }
 
-.three {
-	font-family: arial;
-	font-size: 20px;
-	color: red;
-	position: fixed;
-	bottom: 50px;
-}
+
 
 @keyframes fadein {
 	from {opacity: 0;}
@@ -50,9 +40,9 @@
 }
 
 a {
-	color: red;
+	color: darkslategray;
 }
 
 a:hover {
-	color: teal;
+	color: whitesmoke;
 }

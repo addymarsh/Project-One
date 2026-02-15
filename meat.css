@@ -1,40 +1,51 @@
-body{
-	background-color: darkred;
-	color: white;
-}
-
-.one {
-	font-family: tahoma;
-	font-size: 100px;
-	line-height: 0px;
-
-}
-
-.bod {
+.all {
+	font-family: lucinda console, monospace;
+	color: darkslategray;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-
 }
 
-.steak{
-	background-color: burlywood ;
-	width: 300px;
-	border: 10px solid saddlebrown;
-	font-family: "Arial" ;
+.head {
+	font-family: lucinda console, monospace;
+	font-weight: bold;
+	font-size: 100px;
+	line-height: 50px;
+	color: darkslategray;
 }
 
-.chicken{
-	background-color: burlywood ;
-	width: 300px;
-	border: 10px solid saddlebrown;
-	font-family: "Arial" ;
+
+
+.bod {
+background-color: #fce37e;
+	height: 700px;
+	width: 500px;
+	position: fixed;
+	right: 50px;
+	top: 70px;
+	box-sizing: border-box;
+	animation-name: fadein, movein;
+	animation-duration: 1s;
+	animation-delay: .5s;
 }
 
-.salmon{
-	background-color: burlywood ;
-	width: 300px;
-	border: 10px solid saddlebrown;
-	font-family: "Arial" ;
-
+@keyframes fadein {
+	from {opacity: 0;}
+	to   {opacity: 1;}
 }
+
+@keyframes movein {
+	from {right: 200px;}
+	to   {right: 50px;}
+}
+
+a {
+	color: darkslategray;
+}
+
+a:hover {
+	color: whitesmoke;
+}
+
