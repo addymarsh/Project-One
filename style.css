@@ -13,7 +13,7 @@
 }
 
 #chili {
-        color: darkslategray;
+        
     background-color: #ABFFE1;
     width: 20vw;
     height: 50vh;
@@ -24,7 +24,6 @@
 }
 
 #chicken-salad {
-    color: darkslategray;
     background-color: #FFE7AB;
     width: 20vw;
     height: 50vh;
@@ -35,7 +34,6 @@
 }
 
 #apple-pancakes {
-    color: darkslategray;
     background-color: #ABEEFF;
     width: 20vw;
     height: 50vh;
@@ -46,7 +44,7 @@
 }
 
 #meat {
-    color: darkslategray;
+
     background-color: #FFD3AB;
     width: 20vw;
     height: 50vh;
@@ -57,7 +55,7 @@
 }
 
 #spaghetti-mac-and-cheese {
-    color: darkslategray;
+
     background-color: #87A3AA;
     width: 20vw;
     height: 50vh;
@@ -94,7 +92,7 @@
 }
 
 #lemon-ice-cream {
-    color: darkslategray;
+    
     background-color: #A792AA;
     width: 20vw;
     height: 50vh;
@@ -105,7 +103,7 @@
 }
 
 #white-cookies {
-    color: darkslategray;
+
     background-color: #E0FFC1;
     width: 20vw;
     height: 50vh;
@@ -115,7 +113,7 @@
 }
 
 #chilis-queso {
-    color: darkslategray;
+
     background-color: #F39CFF;
     width: 20vw;
     height: 50vh;
@@ -126,7 +124,7 @@
 
 #candy {
 
-    color: darkslategray;
+
     background-color: #9CFFAB;
     width: 20vw;
     height: 50vh;
@@ -137,7 +135,7 @@
 
 #deviled-eggs {
 
-    color: darkslategray;
+
     background-color: #BD9CFF;
     width: 20vw;
     height: 50vh;
@@ -145,3 +143,12 @@
     align-items: center;    
     justify-content: center;
 }
+
+a {
+	color: darkslategray;
+}
+
+a:hover {
+	color: whitesmoke;
+}
+
