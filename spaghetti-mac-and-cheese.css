@@ -1,5 +1,52 @@
 .one {
+font-family: lucinda console, monospace;
+	font-weight: bold;
+	font-size: 100px;
+	line-height: 50px;
+	color: darkslategray;
+    line-height: 120px;
+}
+
+.bod {
+font-family: lucinda console, monospace;
+	color: darkslategray;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: column;
+}
+
+.two {
+background-color: #ABFFE1;
+	height: 700px;
+	width: 500px;
+	position: fixed;
+	right: 50px;
+	top: 70px;
+	box-sizing: border-box;
+	animation-name: fadein, movein;
+	animation-duration: 1s;
+	animation-delay: .5s;
 
 }
 
-.bod
+
+@keyframes fadein {
+	from {opacity: 0;}
+	to   {opacity: 1;}
+}
+
+@keyframes movein {
+	from {right: 200px;}
+	to   {right: 50px;}
+}
+
+a {
+	color: darkslategray;
+}
+
+a:hover {
+	color: whitesmoke;
+}
+

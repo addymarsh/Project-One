@@ -14,7 +14,7 @@
 
 #chili {
         color: darkslategray;
-    background-color: #fce37e;
+    background-color: #ABFFE1;
     width: 20vw;
     height: 50vh;
     display: flex;
@@ -25,7 +25,7 @@
 
 #chicken-salad {
     color: darkslategray;
-    background-color: green;
+    background-color: #FFE7AB;
     width: 20vw;
     height: 50vh;
     display: flex;
@@ -36,7 +36,7 @@
 
 #apple-pancakes {
     color: darkslategray;
-    background-color: orange;
+    background-color: #ABEEFF;
     width: 20vw;
     height: 50vh;
     display: flex;
@@ -47,7 +47,7 @@
 
 #meat {
     color: darkslategray;
-    background-color: blue;
+    background-color: #FFD3AB;
     width: 20vw;
     height: 50vh;
     display: flex;
@@ -58,7 +58,44 @@
 
 #spaghetti-mac-and-cheese {
     color: darkslategray;
-    background-color: yellow;
+    background-color: #87A3AA;
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+
+}
+
+.row-two {
+       display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-family: lucinda console, monospace;
+
+}
+
+/* Make row-two items match the sizing and centering of row-one tiles */
+.row-two a {
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: darkslategray;
+}
+
+#lemon-ice-cream {
+    color: darkslategray;
+    background-color: #A792AA;
     width: 20vw;
     height: 50vh;
     display: flex;
@@ -67,4 +104,44 @@
 
 }
 
+#white-cookies {
+    color: darkslategray;
+    background-color: #E0FFC1;
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
 
+#chilis-queso {
+    color: darkslategray;
+    background-color: #F39CFF;
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+#mashed-potatoes {
+
+    color: darkslategray;
+    background-color: #9CFFAB;
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+#deviled-eggs {
+
+    color: darkslategray;
+    background-color: #BD9CFF;
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}

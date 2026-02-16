@@ -19,7 +19,7 @@
 
 .two {
 	
-	background-color: #fce37e;
+	background-color: #FFE7AB;
 	height: 700px;
 	width: 500px;
 	position: fixed;
@@ -42,9 +42,9 @@
 }
 
 a {
-	color: blue;
+	color: darkslategray;
 }
 
 a:hover {
-	color: teal;
+	color: whitesmoke;
 }
