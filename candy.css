@@ -1,13 +1,13 @@
 h1 {
-	font-family: lucinda console, monospace;
+font-family: lucinda console, monospace;
 	font-weight: bold;
 	font-size: 100px;
 	line-height: 50px;
 	color: darkslategray;
 }
 
-.instructions {
-	font-family: lucinda console, monospace;
+.one {
+font-family: lucinda console, monospace;
 	color: darkslategray;
 	justify-content: center;
 	align-items: center;
@@ -15,9 +15,9 @@ h1 {
 	display: flex;
 	flex-direction: column;
 }
-.snote {
 
-	background-color: #ABFFE1;
+.all {
+background-color: #9CFFAB;
 	height: 700px;
 	width: 500px;
 	position: fixed;
@@ -27,7 +27,7 @@ h1 {
 	animation-name: fadein, movein;
 	animation-duration: 1s;
 	animation-delay: .5s;
-}	
+}
 
 @keyframes fadein {
 	from {opacity: 0;}
@@ -46,4 +46,3 @@ a {
 a:hover {
 	color: whitesmoke;
 }
-
