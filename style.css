@@ -166,3 +166,14 @@ a:hover {
 	color: whitesmoke;
 }
 
+@media screen and (max-width: 600px) {
+    .row-one, .row-two {
+        flex-direction: column;
+        height: auto;
+    }
+    .row-one > a, .row-two > a {
+        width: 100vw !important;
+        height: auto;
+        padding: 20px 0;
+    }
+}
