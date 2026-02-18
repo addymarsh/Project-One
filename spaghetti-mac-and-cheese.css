@@ -3,9 +3,9 @@ font-family: lucinda console, monospace;
 	font-weight: bold;
 	font-size: 100px;
 	color: darkslategray;
-    line-height: 120px;
+    line-height: 100px;
 	position: fixed;
-	top: 20px;
+	top: -80px;
 	left: 0px;
 }
 
