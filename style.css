@@ -20,8 +20,9 @@
     display: flex;
     align-items: center;    
     justify-content: center;
-
 }
+
+
 
 #chicken-salad {
     background-color: #FFE7AB;
@@ -142,6 +143,19 @@
     display: flex;
     align-items: center;    
     justify-content: center;
+}
+
+#chili:hover,
+#chicken-salad:hover,
+#apple-pancakes:hover,
+#meat:hover,
+#spaghetti-mac-and-cheese:hover,
+#lemon-ice-cream:hover,
+#white-cookies:hover,
+#chilis-queso:hover,
+#candy:hover,
+#deviled-eggs:hover {
+    background-color: darkslategray;
 }
 
 a {

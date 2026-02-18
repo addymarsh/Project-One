@@ -4,6 +4,9 @@ h1 {
 	font-size: 100px;
 	line-height: 50px;
 	color: darkslategray;
+	position: fixed;
+	top: 20px;
+	left: 0px;
 }
 
 .instructions {
@@ -26,7 +29,6 @@ h1 {
 	box-sizing: border-box;
 	animation-name: fadein, movein;
 	animation-duration: 1s;
-	animation-delay: .5s;
 }	
 
 @keyframes fadein {

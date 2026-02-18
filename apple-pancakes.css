@@ -9,8 +9,11 @@
 .one {
 	
 	font-size: 100px;
-	line-height: 0px;
-
+	line-height: 50px;
+	font-weight: bold;
+	position: fixed;
+	top: 20px;
+	left: 0px;
 }
 
 .two {
@@ -24,7 +27,6 @@
 	box-sizing: border-box;
 	animation-name: movein, fadein;
 	animation-duration: 1s;
-	animation-delay: .5s;
 }
 
 
