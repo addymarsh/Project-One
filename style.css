@@ -204,4 +204,25 @@ a:hover {
         padding: 0 !important;
     }
 }
+
+@media screen and (max-width: 500px) {
+    body {
+        flex-direction: column !important;
+        height: auto !important;
+        overflow-x: hidden !important;
+        overflow-y: auto !important;
+    }
+
+    .row-one, .row-two {
+        width: 100vw !important;
+        height: auto !important;
+        flex: none !important;
+    }
+
+    .row-one > a, .row-two > a {
+        height: 50vh !important;
+        width: 100vw !important;
+        padding: 0 !important;
+    }
+}
     
