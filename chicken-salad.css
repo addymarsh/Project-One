@@ -59,3 +59,89 @@ a {
 a:hover {
 	color: whitesmoke;
 }
+
+@media screen and (max-width: 1350px) {
+	img {
+		left: 100px;
+	}
+}
+
+@media screen and (max-width: 1250px) {
+	img {
+		left: 50px;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	body {
+		display: flex !important;
+		flex-direction: column !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+
+	.one {
+		position: static !important;
+		left: 10px !important;
+		width: 100% !important;
+		margin: -200px 0 0 0 !important;
+		padding: 0 !important;
+		text-align: left !important;
+		font-size: 250px !important;
+		line-height: 1 !important;
+	}
+
+	img {
+		position: static !important;
+		top: auto !important;
+		left: auto !important;
+		z-index: 1 !important;
+		height: auto !important;
+		width: 2000px !important;
+		max-width: 600px !important;
+		display: block !important;
+		margin: -250px 0 20px auto !important;
+	}
+
+	.all {
+		position: static !important;
+		right: auto !important;
+		top: auto !important;
+		width: 100% !important;
+		margin: 0 !important;
+		padding: 20px !important;
+	}
+
+	.two {
+		position: static !important;
+		right: auto !important;
+		top: auto !important;
+		width: 100% !important;
+		height: auto !important;
+		margin: 0 !important;
+		animation: none !important;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.two,
+	.two * {
+		font-size: 24px !important;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.two {
+		width: max(400px, 100%) !important;
+		min-width: 400px !important;
+		flex-shrink: 0 !important;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.two {
+		width: max(450px, 100%) !important;
+		min-width: 450px !important;
+		flex-shrink: 0 !important;
+	}
+}
