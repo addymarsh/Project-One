@@ -3,9 +3,9 @@ h1 {
 	font-weight: bold;
 	font-size: 100px;
 	color: darkslategray;
-	line-height: 50px;
+	line-height: 115px;
 	position: fixed;
-	top: 20px;
+	top: -50px;
 	left: 0px;
 }
 

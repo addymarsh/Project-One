@@ -39,9 +39,6 @@ img {
 	box-sizing: border-box;
 	animation-name: fadein, movein;
 	animation-duration: 1s;
-	display: flex;
-	flex-wrap: wrap;
-
 }
 
 @keyframes fadein {
