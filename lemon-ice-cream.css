@@ -123,10 +123,11 @@ a:hover {
 		position: static !important;
 		right: auto !important;
 		top: auto !important;
-		width: 95% !important;
-		max-width: 600px !important;
+		width: min(95vw, 600px) !important;
+		min-width: min(90vw, 600px) !important;
 		height: auto !important;
 		margin: 0 auto !important;
+		flex-shrink: 0 !important;
 		animation: none !important;
 	}
 }
@@ -143,9 +144,10 @@ a:hover {
 	}
 
 	.all {
-		width: 95% !important;
-		max-width: 600px !important;
+		width: min(95vw, 600px) !important;
+		min-width: min(90vw, 600px) !important;
 		margin: 0 auto !important;
+		flex-shrink: 0 !important;
 	}
 }
 
@@ -155,8 +157,8 @@ a:hover {
 	}
 
 	.all {
-		width: 95% !important;
-		max-width: 600px !important;
+		width: min(95vw, 600px) !important;
+		min-width: min(90vw, 600px) !important;
 		margin: 0 auto !important;
 		flex-shrink: 0 !important;
 	}
@@ -168,8 +170,8 @@ a:hover {
 	}
 
 	.all {
-		width: 95% !important;
-		max-width: 600px !important;
+		width: 520px !important;
+		min-width: 520px !important;
 		margin: 0 auto !important;
 		flex-shrink: 0 !important;
 	}

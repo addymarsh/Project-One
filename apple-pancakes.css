@@ -1,7 +1,22 @@
-.all {
+h1 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "Tahoma", "Verdana", sans-serif;
+	font-weight: bold;
+	font-size: 100px;
+	line-height: 50px;
+	color: darkslategray;
+	position: fixed;
+	top: 20px;
+	left: 0px;
+}
+
+.one {
+	font-family: lucinda console, monospace;
+	color: darkslategray;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	display: flex;
 	flex-direction: column;
-	color: darkslategray;
 }
 
 img {
@@ -11,18 +26,6 @@ img {
 	top: 150px;
 	left: 200px;
 	z-index: -1;
-}
-
-.one {
-	
-	font-size: 100px;
-	line-height: 50px;
-	font-weight: bold;
-	position: fixed;
-	top: 20px;
-	left: 0px;
-	z-index: 1;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", "Tahoma", "Verdana", sans-serif;
 }
 
 .two {
@@ -78,30 +81,31 @@ a:hover {
 		padding: 0 !important;
 	}
 
-	.one {
+	h1 {
 		position: static !important;
 		left: 10px !important;
 		width: 100% !important;
-		margin: -200px 0 0 0 !important;
-		padding: 0 !important;
+		margin: 0 0 20px 0 !important;
+		padding: 0 10px !important;
 		text-align: left !important;
-		font-size: 250px !important;
-		line-height: 1 !important;
+		font-size: clamp(48px, 10vw, 120px) !important;
+		line-height: 1.1 !important;
+		overflow-wrap: break-word !important;
 	}
 
 	img {
 		position: static !important;
 		top: auto !important;
 		left: auto !important;
-		z-index: 1 !important;
+		z-index: -1 !important;
 		height: auto !important;
 		width: 2000px !important;
 		max-width: 600px !important;
 		display: block !important;
-		margin: -250px 0 20px auto !important;
+		margin: 0 auto 20px auto !important;
 	}
 
-	.all {
+	.one {
 		position: static !important;
 		right: auto !important;
 		top: auto !important;
@@ -114,9 +118,11 @@ a:hover {
 		position: static !important;
 		right: auto !important;
 		top: auto !important;
-		width: 100% !important;
+		width: min(95vw, 600px) !important;
+		min-width: min(90vw, 600px) !important;
 		height: auto !important;
-		margin: 0 !important;
+		margin: 0 auto !important;
+		flex-shrink: 0 !important;
 		animation: none !important;
 	}
 }
@@ -126,20 +132,29 @@ a:hover {
 	.two * {
 		font-size: 24px !important;
 	}
+
+	.two {
+		width: min(95vw, 600px) !important;
+		min-width: min(90vw, 600px) !important;
+		margin: 0 auto !important;
+		flex-shrink: 0 !important;
+	}
 }
 
 @media screen and (max-width: 550px) {
 	.two {
-		width: max(400px, 100%) !important;
-		min-width: 400px !important;
+		width: min(95vw, 600px) !important;
+		min-width: min(90vw, 600px) !important;
+		margin: 0 auto !important;
 		flex-shrink: 0 !important;
 	}
 }
 
 @media screen and (max-width: 400px) {
 	.two {
-		width: max(450px, 100%) !important;
-		min-width: 450px !important;
+		width: 520px !important;
+		min-width: 520px !important;
+		margin: 0 auto !important;
 		flex-shrink: 0 !important;
 	}
 }

@@ -115,9 +115,11 @@ a:hover {
 		position: static !important;
 		right: auto !important;
 		top: auto !important;
-		width: 100% !important;
+		width: min(95vw, 600px) !important;
+		min-width: min(90vw, 600px) !important;
 		height: auto !important;
-		margin: 0 !important;
+		margin: 0 auto !important;
+		flex-shrink: 0 !important;
 		animation: none !important;
 	}
 }
@@ -127,20 +129,29 @@ a:hover {
 	.all * {
 		font-size: 24px !important;
 	}
+
+	.all {
+		width: min(95vw, 600px) !important;
+		min-width: min(90vw, 600px) !important;
+		margin: 0 auto !important;
+		flex-shrink: 0 !important;
+	}
 }
 
 @media screen and (max-width: 550px) {
 	.all {
-		width: max(400px, 100%) !important;
-		min-width: 400px !important;
+		width: min(95vw, 600px) !important;
+		min-width: min(90vw, 600px) !important;
+		margin: 0 auto !important;
 		flex-shrink: 0 !important;
 	}
 }
 
 @media screen and (max-width: 400px) {
 	.all {
-		width: max(450px, 100%) !important;
-		min-width: 450px !important;
+		width: 520px !important;
+		min-width: 520px !important;
+		margin: 0 auto !important;
 		flex-shrink: 0 !important;
 	}
 }
